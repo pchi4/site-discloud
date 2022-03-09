@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #26262b!important;
+}
+
+/* <!-- ==== NAV ==== --> */
+
+.navdd, .ul-content{
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 40px 0px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol
+}
+
+.ul-content{
+    list-style:none;
+    color: inherit;
+    padding: 0;
+}
+
+.li-content{
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.nav-menu{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    position: absolute;
+    top: 37px;
+    right: 20px;
+    /* display: none; */
+}
+
+.li-content:hover{
+    background-color: rgb(146, 150, 153);
+    border-radius: 15px;
+}
+
+#beneficios, #servidores, #sobre{
+    color: inherit;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+
+/* <!-- ==== PRIMEIRO CONTAINER ==== --> */
+
+#img-contet{
+    width: 120px;
+}
+
+.back{
+    background-image: url(https://cdn.discordapp.com/attachments/535165549655621632/632505623363190785/nuvem.svg);
+    background-position: 50%,50%;
+    background-size: cover,cover;
+    background-repeat: repeat,repeat;
+}
+
+.main-titulo{
+    font-size: 30px;
+    padding-top: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+#main-titulo{
+    font-weight: 500;
+    font-size: 86px;
+    padding-bottom: 40px;
+}
+
+#main-titulo-2{
+    font-weight: 200;
+    font-style:italic;
+    color: rgb(172, 167, 167);
+}
+
+.main-content{
+    padding: 50px 0px;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+#strong{
+    font-size: 28px;
+}
+
+.main-title{
+    font-size: 20px;
+    color: rgb(172, 167, 167);
+}
+
+#titulo-nav{
+    text-align: start;
+    font-size: 26px;
+
+}
+
+
+/* <!-- ==== SEGUNDO CONTAINER ==== --> */
+
+.informativo{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.informativo-titulo, .informativo-content{
+    width: 500px;
+}
+
+#title-content{
+    padding-top: 170px;
+}
+
+.main-imgs{    
+    width: 100px;
+    padding: 20px 0px;
+
+}
+
+.name{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text, .mini-text{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.text{
+    font-size: 60px;
+}
+.mini-text{
+    font-size: 25px;
+    font-style:italic;
+    color: rgb(172, 167, 167);
+}
+
+/* <!-- ==== PLANOS CONTAINER ==== --> */
+
+.planos{
+    display: flex;
+    justify-content: center;
+}
+
+.plano{
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    width: 300px;
+    height: 410px;
+    margin: 20px 15px;
+    background-color: rgb(44, 47, 51);
+    border-color: rgb(44, 47, 51);
+    box-shadow: rgb(44 47 51) 3px 3px 5px;
+    border-style: solid;
+    margin-bottom: 100px;
+    transition: 1s;
+    
+}
+
+
+.ul-plano{
+    list-style:none; 
+}
+
+.plano-titulo{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.plano-valor{
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+#plano-valor{
+    font-size: 40px;
+}
+.plano-desc{
+    text-align: end;
+    padding: 20px 0px;
+}
+.plano-button{
+    /* padding-top: 30px; */
+    text-align: center
+}
+
+.ul-plano{
+    font-size: 18px;
+}
+
+.plano-imgs{
+    width: 50px;
+}
+.btn-plano{
+    
+}
+
+.mes{
+    font-size: 22px;
+}
+
+.background-beneficios{
+    background-image: url(https://cdn.discordapp.com/attachments/535165549655621632/632666307015344128/mountains.svg);
+    background-size: cover,cover;
+}
+
+/* <!-- ==== COMBINAÇÃO CONTAINER ==== --> */
+
+#combinacao{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.exemplos{
+    display: flex;
+    justify-content:space-between;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 950px;
+    padding: 20px 0px;
+    background-color: rgb(44, 47, 51);
+    margin-bottom: 50px;
+   
+}
+
+.exemplos-1{
+   display: flex;
+   flex-direction: column;
+   /* width: 200px; */
+   padding: 30px;
+   padding: 0px 0.25rem;
+   text-align: center;
+}
+
+#exemplos-1,
+ #exemplos-2,
+  #exemplos-3, 
+  #exemplos-4{
+      
+    padding: 0px 20px;
+}
+
+.integracao{
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 0px ;
+}
+   
+/* <!-- ==== FOOTER ==== --> */
+
+#all{
+    color: hsla(0,0%,100%,.5);
+}
+
+footer{
+    background-image: url(https://cdn.discordapp.com/attachments/535165549655621632/632666310970441759/mountains2.svg);
+    background-size: cover,cover;
+    background-repeat: repeat,repeat;
+}
+
+.footer-info{
+    display: flex;
+}
+
+.footer-texto{
+    padding: 100px 0px;
+    text-align: justify;
+}
+
+.footer-para{
+    font-size: 20px;
+    color: hsla(0,0%,100%,.5);
+}
+
+.footer-sobre{
+    display: flex;
+    justify-content: end;
+    padding: 40px 0px;
+}
+
+.footer-rede{
+    text-align: center;
+   
+}
+
+#nav-menu:focus ~ .ul-content{
+    height: 200px;
+}
+
+.plano:hover{
+    transform: scale(1.1);
+}
+
+.navdd, .nav-content-2, .ul-content{
+    flex-direction: column;
+    align-items: unset;
+    /* margin: 15px 0px; */
+    padding: 0;
+}
+
+.ul-content{
+    text-align: center;
+}
+
+.nav-content-2, .ul-content{
+    text-align: center;
+    width: 100%;
+    padding-top: 34px;
+}
+
+.nav-content-2{
+    overflow: auto;
+    background-color: rgb(44, 47, 51);
+}
+
+@media only screen and (max-width: 780px) {
+    
+
+    #titulo-nav{
+        text-align: start;
+        font-size: 26px;
+    }
+
+    .li-content{
+        padding: 15px 0px;
+    }
+
+    .nav-menu{
+        display: flex;
+    }
+    
+    #main-titulo {
+     font-size: 48px; 
+    }
+
+    .main-titulo{
+        font-size: 24px;
+    }
+
+    .main-content{
+        padding: 20px 0px;
+        text-align: -webkit-center;
+    }
+    .informativo{
+        display:block;
+    }
+    .informativo-titulo, .footer-processador,
+     .informativo{
+        display: none;
+    }
+
+    .planos, .main-content, .exemplos{
+        display: block;
+    }
+
+    .plano{
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+
+    /* .testando{
+        display: none;
+    } */
+
+    .exemplos{
+        width: 350px;
+    }
+
+    .exemplos-1{
+        padding: 10px 0.25rem;
+
+    }
+
+    .footer-texto{
+        padding: 0;
+    }
+
+    p{
+        padding: 20px;
+    }
+  }
